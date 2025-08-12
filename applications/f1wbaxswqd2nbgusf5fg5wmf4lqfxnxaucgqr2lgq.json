@@ -16,7 +16,7 @@
     "Is this project associated with other projects/ecosystem stakeholders?": "No",
     "Describe the data being stored onto Filecoin": "Corporate promotional video",
     "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
-    "How do you plan to prepare the dataset": "",
+    "How do you plan to prepare the dataset": "Data Sharding and Encryption: Use tools like IPFS to split raw data into shards (e.g., in CAR file format) and optionally encrypt them (e.g., with AES) for security.\n\nGenerating Storage Deals: Create storage deals via Lotus or Boost clients, defining parameters (replicas, storage duration, etc.) and generating a Piece CID (unique data identifier).\n\nData Transfer: Transmit sharded data to Storage Providers (SPs) via HTTP or GraphSync protocol, ensuring network stability and transfer efficiency.\n\nDeal Verification & On-Chain Submission: After receiving data, SPs generate storage proofs (e.g., PoRep) and submit the transaction to the Filecoin blockchain via on-chain messages.\n\nMonitoring & Repair: Use Prometheus or custom scripts to monitor storage status, regularly check replica health, and trigger repair processes (e.g., re-sealing) if failures occur.\n\nToolchain: IPFS/Lotus/Boost, CAR splitting tools (e.g., go-car), encryption libraries (OpenSSL), GraphSync/HTTP, Filecoin Virtual Machine (FVM).\n",
     "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "http://www.xinglianjiayi.com/cases/list_0.html",
     "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
     "What is the expected retrieval frequency for this data": "Sporadic",
@@ -43,7 +43,7 @@
     "Active Request ID": "ee197625-51b2-4160-902a-6b2a0ed59dee",
     "On Chain Address": "f1wbaxswqd2nbgusf5fg5wmf4lqfxnxaucgqr2lgq",
     "Multisig Address": "false",
-    "edited": false
+    "edited": true
   },
   "Allocation Requests": [
     {

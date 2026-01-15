@@ -36,11 +36,11 @@
   },
   "Lifecycle": {
     "State": "Granted",
-    "Validated At": "2025-12-22 03:40:34.494268437 UTC",
+    "Validated At": "2026-01-15 01:13:35.548763085 UTC",
     "Validated By": "zhaohongwei201109",
     "Active": true,
-    "Updated At": "2025-12-22 03:40:34.494263551 UTC",
-    "Active Request ID": "22780f7e-006b-412b-b931-0be0ed2a0f54",
+    "Updated At": "2026-01-15 01:13:35.548759455 UTC",
+    "Active Request ID": "d3ff587b-1299-401a-8eb0-63da4e6ce968",
     "On Chain Address": "f1wbaxswqd2nbgusf5fg5wmf4lqfxnxaucgqr2lgq",
     "Multisig Address": "false",
     "edited": false
@@ -91,6 +91,22 @@
           "Signing Address": "f1dgnjt63pi26nbpwmqx3xctzmhehrdvpyv2zj2qa",
           "Created At": "2025-12-22 03:40:32.311000000 UTC",
           "Message CID": "bafy2bzacebjkm22p776clo4zmamcxn2gy6mtcu2i24xffgzyys6v5as7d2au2"
+        }
+      ]
+    },
+    {
+      "ID": "d3ff587b-1299-401a-8eb0-63da4e6ce968",
+      "Request Type": "Refill",
+      "Created At": "2026-01-15 01:11:36.773861280 UTC",
+      "Updated At": "2026-01-15 01:11:36.773862088 UTC",
+      "Active": false,
+      "Allocation Amount": "1407374883553280B",
+      "Signers": [
+        {
+          "Github Username": "zhaohongwei201109",
+          "Signing Address": "f1dgnjt63pi26nbpwmqx3xctzmhehrdvpyv2zj2qa",
+          "Created At": "2026-01-15 01:13:32.924000000 UTC",
+          "Message CID": "bafy2bzacebpnzjnk3o5hwurhs3cfnzl7vhpv5voys6cfc5m2iedrqiyuyzhx4"
         }
       ]
     }
